@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="header">
+    <span>9:41</span>
+    <span class="icon">
+      <img src="assets/wifi.png" />
+      <img src="assets/wireless.png" />
+      <img src="assets/battery.png" />
+    </span>
+  </div>
+  <div class="result">
+    <div class="result-inner">0</div>
+  </div>
+  <div class="keyboard">
+    <button class="grey-button">AC</button>
+    <button class="grey-button">+/-</button>
+    <button class="grey-button">%</button>
+    <button class="orange-button">÷</button>
+
+    <button class="dark-grey-button" (click)="changeToZero('7')">{{sevenOrZero}}</button>
+    <button class="dark-grey-button" (click)="changeToZero('8')">{{eightOrZero}}</button>
+    <button class="dark-grey-button" (click)="changeToZero('9')">{{nineOrZero}}</button>
+    <button class="orange-button">×</button>
+
+    <button class="dark-grey-button" (click)="changeToZero('4')">{{fourOrZero}}</button>
+    <button class="dark-grey-button" (click)="changeToZero('5')">{{fiveOrZero}}</button>
+    <button class="dark-grey-button" (click)="changeToZero('6')">{{sixOrZero}}</button>
+    <button class="orange-button">-</button>
+
+    <button class="dark-grey-button" (click)="changeToZero('1')">{{oneOrZero}}</button>
+    <button class="dark-grey-button" (click)="changeToZero('2')">{{twoOrZero}}</button>
+    <button class="dark-grey-button" (click)="changeToZero('3')">{{threeOrZero}}</button>
+    <button class="orange-button">+</button>
+
+    <button class="dark-grey-button zero-btn">0</button>
+    <button class="dark-grey-button">.</button>
+    <button class="orange-button">=</button>
+  </div>
+  <div class="bottom-bar"></div>
+</div>
+
